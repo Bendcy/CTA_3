@@ -8,8 +8,6 @@ public class gradeStats {
         double maxGrade = Double.MIN_VALUE;
         double minGrade = Double.MAX_VALUE;
 
-        System.out.println("Please enter ten grades: ");
-
         for (int i = 0; i < 10; i++) {
             System.out.println("Enter grade " + (i + 1) + ": ");
 
