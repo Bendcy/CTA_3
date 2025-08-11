@@ -20,9 +20,6 @@ public class gradeStats {
                 if (grade < minGrade) {
                     minGrade = grade;
                 }
-            } else {
-                System.out.println("Invalid input. Please enter a valid numeric grade.");
-                scanner.next();
             }
         }
         double average = total / 10;
